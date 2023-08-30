@@ -1,5 +1,6 @@
 # Dotfiles for Arch Linux
 
+
 ## Preview
 
 ![screenshot](./screenshot.gif "Screenshot showcase made on 2021-01-08")
@@ -33,6 +34,7 @@ After every repository update, reload dotfiles and install dependencies:
 
 ```shell
 dotfiles reload
+make dependencies
 ```
 
 ## Usage and customization
