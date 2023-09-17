@@ -8,6 +8,8 @@ APPS='unclutter -idle 1
       kdeconnect-indicator
       signal-desktop --start-in-tray
       dino --gapplication-service
+      mail-notification
+      libinput-gestures-setup start
       xhost +si:localuser:$USER
       '
 
