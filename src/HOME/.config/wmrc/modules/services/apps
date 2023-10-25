@@ -10,6 +10,7 @@ APPS='unclutter -idle 1
       dino --gapplication-service
       mail-notification
       libinput-gestures-setup start
+      gromit-mpx
       xhost +si:localuser:$USER
       '
 
