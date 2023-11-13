@@ -34,3 +34,5 @@ if status --is-login
         __graphical_environment_bspwm
     end
 end
+export GCP_AUTH_KIND=application
+if [ -f '/home/dovla/google-cloud-sdk/path.fish.inc' ]; . '/home/dovla/google-cloud-sdk/path.fish.inc'; end
