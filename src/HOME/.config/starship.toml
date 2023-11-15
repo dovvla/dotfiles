@@ -1,6 +1,6 @@
 format = """
 [┌](red)$username[@](bright-white)$hostname\
-$container$status$directory$all\
+$kubernetes$container$status$directory$all\
 $cmd_duration$time$line_break\
 [└](red)$character
 """
@@ -75,3 +75,8 @@ format = '[$duration](white dimmed) '
 [container]
 format = '[$name]($style) '
 style = 'purple bold'
+
+[kubernetes]
+style = "bold #2b6fe5"
+context_aliases = {"gke_nord-gke-dev_europe-west1_dev-1" = "dev-1", "gke_nord-gke-test_europe-west1_test-1" = "test-1"}
+disabled = false

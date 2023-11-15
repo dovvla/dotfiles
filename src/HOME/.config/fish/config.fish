@@ -35,4 +35,5 @@ if status --is-login
     end
 end
 export GCP_AUTH_KIND=application
+export USE_GKE_GCLOUD_AUTH_PLUGIN=True
 if [ -f '/home/dovla/google-cloud-sdk/path.fish.inc' ]; . '/home/dovla/google-cloud-sdk/path.fish.inc'; end
