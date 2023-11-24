@@ -8,7 +8,6 @@
   },
   "workbench.colorTheme": "Default Dark Modern",
   "workbench.iconTheme": "vscode-icons",
-  "workbench.editor.untitled.hint": "hidden",
   "editor.suggestSelection": "first",
   "editor.rulers": [
     80,

@@ -323,7 +323,6 @@ super + Insert
 # Toggle volume using media keys for default sink
 XF86AudioMute
 	wmrc call hardware/audio speakers_toggle_mute
-
 # Change internal monitor brightness using media keys
 super + {XF86AudioLowerVolume,XF86AudioRaiseVolume}
 	wmrc call screen/backlight {decrease,increase} internal
