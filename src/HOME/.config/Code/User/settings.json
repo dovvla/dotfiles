@@ -27,7 +27,6 @@
   "terminal.integrated.tabs.enabled": true,
   "vsicons.dontShowNewVersionMessage": true,
   "workbench.editor.labelFormat": "short",
-  "window.zoomLevel": 1,
   "editor.unicodeHighlight.nonBasicASCII": false,
   "terminal.external.linuxExec": "alacritty",
   "terminal.integrated.cursorStyle": "underline",
@@ -102,5 +101,6 @@
   },
   "lldb.suppressUpdateNotifications": true,
   "python.venvPath": "/tmp/venv",
-  "workbench.editor.empty.hint": "hidden"
+  "workbench.editor.empty.hint": "hidden",
+  "window.zoomLevel": 1
 }
