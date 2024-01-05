@@ -4,14 +4,17 @@ export WMRC_DEPENDENCIES='pgrep'
 
 APPS='unclutter -idle 1
       redshift-qt
-      flameshot
+      libinput-gestures-setup start
+      xhost +si:localuser:$USER
+      keepassxc
       kdeconnect-indicator
+      flameshot
+      thunderbird
       signal-desktop --start-in-tray
       dino --gapplication-service
-      mail-notification
       libinput-gestures-setup start
+      safeeyes
       gromit-mpx
-      xhost +si:localuser:$USER
       '
 
 app_list() {
