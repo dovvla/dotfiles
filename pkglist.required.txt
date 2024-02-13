@@ -90,6 +90,7 @@ ufw
 unp
 unrar
 unzip
+upower
 usbutils
 vim
 vlc
