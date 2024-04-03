@@ -15,6 +15,7 @@ dash
 ddcutil
 dnsmasq
 dunst
+engrampa
 eog
 evince
 feh
