@@ -1,0 +1,7 @@
+#!/bin/sh
+
+export WMRC_DEPENDENCIES='sudo'
+
+init() {
+    sudo exportfs -arv
+}
