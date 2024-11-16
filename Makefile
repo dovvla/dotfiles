@@ -138,6 +138,7 @@ optional-dependencies: .bootstrap
 			printf("`%s`\n\n", $$0); c=0 \
 		} \
 	}' | sudo tee /usr/share/doc/dotfiles/shortcuts.md 1>/dev/null
+	cp /usr/share/doc/dotfiles/shortcuts.md ${SRCDIR}/../SHORTCUTS.md
 	cat "${SRCDIR}/HOME/.config/sxhkd/sxhkdrc" | awk \
 	'BEGIN { \
 		first = 1; \
@@ -170,7 +171,8 @@ optional-dependencies: .bootstrap
 
 .post-install-services:
 	sudo systemctl daemon-reload
-	sudo systemctl enable "resume@${USERNAME}"
+	sudo systemctl enable "wmrc-suspend@${USERNAME}"
+	sudo systemctl enable "wmrc-resume@${USERNAME}"
 	sudo systemctl enable --now sshd
 	sudo systemctl enable --now cronie
 	sudo systemctl enable --now NetworkManager
