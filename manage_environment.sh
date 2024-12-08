@@ -26,3 +26,5 @@ sudo chsh -s /usr/bin/fish "${USERNAME}"
 sudo usermod -aG input,kvm,optical,rfkill,uucp "${USERNAME}"
 gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 
+systemctl --user stop pulseaudio.service
+systemctl --user enable --now pipewire-pulse.service

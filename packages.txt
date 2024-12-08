@@ -76,8 +76,7 @@ picom
 playerctl
 pulseaudio
 pulseaudio-alsa
-pulseaudio-bluetooth	
-pulseaudio-zeroconf	
+pipewire-pulse
 python-pip	
 qbittorrent	
 qt5ct
