@@ -41,5 +41,6 @@
     "markdown": false,
     "scminput": false,
     "rust": false
-  }
+  },
+  "workbench.statusBar.visible": false
 }
