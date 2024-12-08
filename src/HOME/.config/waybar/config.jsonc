@@ -25,7 +25,6 @@
         "temperature",
         "hyprland/language",
         "battery",
-        "battery#bat2",
         "clock",
         "backlight/slider",
         "bluetooth",
