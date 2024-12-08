@@ -1,0 +1,21 @@
+#	$OpenBSD: sshd_config,v 1.103 2018/04/09 20:41:22 tj Exp $
+
+LoginGraceTime 60
+PermitRootLogin no
+MaxAuthTries 3
+PubkeyAuthentication yes
+AuthorizedKeysFile	.ssh/authorized_keys
+
+HostbasedAuthentication no
+PasswordAuthentication no
+PermitEmptyPasswords no
+ChallengeResponseAuthentication no
+KerberosAuthentication no
+GSSAPIAuthentication no
+UsePAM no
+
+AllowAgentForwarding yes
+AllowTcpForwarding yes
+X11Forwarding yes
+PrintMotd yes
+Subsystem	sftp	/usr/lib/ssh/sftp-server
