@@ -69,8 +69,9 @@
         "format": " {temperatureC}°C"
     },
     "hyprland/language": {
-        "format": "  {}",
-        "format-en": "EN"
+        "format": "{}",
+        "format-en": "en",
+        "format-sr": "rs"
     },
     "battery": {
         "states": {
