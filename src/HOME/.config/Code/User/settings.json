@@ -42,5 +42,6 @@
     "scminput": false,
     "rust": false
   },
-  "workbench.statusBar.visible": false
+  "workbench.statusBar.visible": false,
+  "explorer.confirmDelete": false
 }

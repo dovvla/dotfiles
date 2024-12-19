@@ -16,6 +16,6 @@ UsePAM no
 
 AllowAgentForwarding yes
 AllowTcpForwarding yes
-X11Forwarding yes
+X11Forwarding no
 PrintMotd yes
 Subsystem	sftp	/usr/lib/ssh/sftp-server
