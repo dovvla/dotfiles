@@ -39,7 +39,6 @@ gst-plugin-viper4linux-git
 gvfs
 gvfs-mtp
 gvfs-nfs
-hyprland-meta-git
 jq
 k9s
 kdeconnect
@@ -49,6 +48,11 @@ linux
 linux-firmware
 linux-headers
 lsd
+hyprland
+hyprpaper
+hypridle
+hyprlock
+xdg-desktop-portal-hyprland
 make
 man-db
 man-pages
