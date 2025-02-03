@@ -104,12 +104,6 @@
         "format-alt": "{:%Y-%m-%d}",
         "interval": 1
     },
-    "backlight/slider": {
-        "min": 0,
-        "max": 100,
-        "orientation": "horizontal",
-        "device": "intel_backlight"
-    },
     "bluetooth": {
         "format": " {status}",
         "format-off": " ",
